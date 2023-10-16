@@ -306,3 +306,17 @@ footer .column > a:hover {
         grid-template-columns: 1fr 150px;
     }
 }
+
+@media (max-width: 480px) {
+    .header {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .features {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    footer {
+        grid-template-columns: 1fr;
+    }
+}
